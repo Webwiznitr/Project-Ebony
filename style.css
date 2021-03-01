@@ -14,19 +14,21 @@ html{
 }
 body{
     background-color: #eee;
-    font-family: "Gill Sans Extrabold", sans-serif``;
+    font-family: "Gill Sans Extrabold", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+
 }
 
 .grid{
-    display: grid;
-    width: 38rem;
+    display: inline-flex;
+    width: 30rem;
     grid-gap: 6rem;
     grid-template-columns:  repeat(auto-fit, minmax(30rem,1fr));
     align-items: start;
+    margin:3rem;
 }
 .grid-item
 {
@@ -45,7 +47,7 @@ body{
 .card-img{
     display: block;
     width: 100%;
-    height: 20rem;
+    height: 16rem;
     object-fit: cover;
 }
 .card-content{
