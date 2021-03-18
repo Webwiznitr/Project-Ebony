@@ -32,6 +32,8 @@ body {
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: 0.2s;
+  margin:1em 4em 0 4em;
+  width:30em;
 }
 
 .grid-item:hover {
@@ -79,4 +81,7 @@ body {
   cursor: pointer;
   letter-spacing: 0.1rem;
 }
-
+.card-btn:hover{
+  background-color: #7998fc;
+  color:#fff;
+}
