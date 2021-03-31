@@ -1,5 +1,50 @@
 /*----------------header style--------------*/
 
+le.css 
+@@ -3,6 +3,50 @@
+  padding: 0;
+}
+
+html{
+  font-size: 70%;
+}
+
+body{
+  color:#1e212d;
+  line-height: 2;
+}
+
+header{
+  height: 50vh;
+  background-image: linear-gradient(to bottom right, #000066 0%, #00ffff 100%);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textbox{
+  text-align: center;
+  margin-top: -5vh;
+}
+
+img{
+  max-height: 10%;
+  max-width: 10%;
+  float: right;
+}
+h1 span:first-child{
+  display: block;
+  font-size: 6rem;
+  letter-spacing: 1rem;
+  font-weight: 900;
+}
+h1 span:nth-child(2){
+  display: block;
+  font-size: 2.5rem;
+  font-family: monospace;
+  letter-spacing: 0.45rem;
+  font-weight: 700;
 
 
 /*-----------------card style---------------*/
