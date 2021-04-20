@@ -1,53 +1,3 @@
-/*----------------header style--------------*/
-
-le.css 
-@@ -3,6 +3,50 @@
-  padding: 0;
-}
-
-html{
-  font-size: 70%;
-}
-
-body{
-  color:#1e212d;
-  line-height: 2;
-}
-
-header{
-  height: 50vh;
-  background-image: linear-gradient(to bottom right, #000066 0%, #00ffff 100%);
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.textbox{
-  text-align: center;
-  margin-top: -5vh;
-}
-
-img{
-  max-height: 10%;
-  max-width: 10%;
-  float: right;
-}
-h1 span:first-child{
-  display: block;
-  font-size: 6rem;
-  letter-spacing: 1rem;
-  font-weight: 900;
-}
-h1 span:nth-child(2){
-  display: block;
-  font-size: 2.5rem;
-  font-family: monospace;
-  letter-spacing: 0.45rem;
-  font-weight: 700;
-
-
-/*-----------------card style---------------*/
 * {
   margin: 0;
   padding: 0;
@@ -64,14 +14,67 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  color:#1e212d;
+  line-height: 2;
+}
+
+
+
+/*----------------header style--------------*/
+
+
+header{
+  background-image: linear-gradient(to bottom right, #000066 0%, #00ffff 100%);
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  left:0;
+  right:0;
+  padding: 15em 0;
+  margin-bottom: 8em;
+}
+
+.textbook{
+  text-align: center;
+  margin-top: -5vh;
+}
+
+header .img{
+  max-height: 10%;
+  max-width: 10%;
+  float: right;
+}
+h1 span:hover{
+  cursor:default;
+}
+h1 span:first-child{
+  display: block;
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 1em;
+}
+h1 span:nth-child(2){
+  display: block;
+  font-size: 2.5rem;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0 0.6em;
+}
+
+/*-----------------card style---------------*/
+.card-section{
+  display: flex;
 }
 
 .grid {
   display: grid;
-  width: 120em;
+  width: 140em;
   grid-gap: 6rem;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   align-items: start;
+  margin: 0 auto;
 }
 
 .grid-item {
@@ -81,7 +84,7 @@ body {
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: 0.2s;
-  margin:1em 4em 0 4em;
+  margin:0 auto;
   width:30em;
 }
 
@@ -93,7 +96,7 @@ body {
 .card-img {
   display: block;
   width: 100%;
-  height: 16rem;
+  height: 17rem;
   object-fit: cover;
 }
 
@@ -146,6 +149,7 @@ footer{
   font-family: "Open Sans";
   padding-top: 40px;
   color: #fff;
+  margin-top:10em;
 }
 .footer-content{
   display: flex;
