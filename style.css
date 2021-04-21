@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -9,8 +12,8 @@ html {
 }
 
 body {
-  background-color: #eee;
-  font-family: "Gill Sans Extrabold", sans-serif;
+  background-color:#daf6ff;
+  font-family: Arial, Helvetica, sans-serif;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -24,7 +27,7 @@ body {
 
 
 header{
-  background-image: linear-gradient(to bottom right, #000066 0%, #00ffff 100%);
+  background-image: linear-gradient(to bottom right, #000027 0%, #02007e 100%);
   background-size: cover;
   align-items: center;
   justify-content: center;
@@ -32,6 +35,9 @@ header{
   right:0;
   padding: 15em 0;
   margin-bottom: 8em;
+}
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .textbook{
@@ -44,23 +50,28 @@ header .img{
   max-width: 10%;
   float: right;
 }
+h1 span{
+  color:#dddddd;
+}
+
 h1 span:hover{
   cursor:default;
 }
 h1 span:first-child{
   display: block;
-  font-size: 5rem;
-  font-weight: 900;
+  font-size: 7rem;
+  letter-spacing: 1rem;
   line-height: 1;
   margin-bottom: 1em;
+  font-family: 'Permanent Marker', cursive;
 }
 h1 span:nth-child(2){
   display: block;
-  font-size: 2.5rem;
+  font-size: 3.2rem;
   letter-spacing: 0.2rem;
-  font-weight: 700;
   line-height: 1.5;
-  margin: 0 0.6em;
+  margin: 0 0.5em;
+  font-family: 'Caveat', cursive;
 }
 
 /*-----------------card style---------------*/
@@ -146,7 +157,7 @@ footer{
   background: #111;
   height: auto;
   width: 100vw;
-  font-family: "Open Sans";
+  font-family: Arial, Helvetica, sans-serif;
   padding-top: 40px;
   color: #fff;
   margin-top:10em;
@@ -208,4 +219,50 @@ footer{
   text-transform: uppercase;
   opacity: .4;
   font-weight: 200;
+}
+
+@media only screen and (max-width:650px) {
+  .grid{
+    grid-template-columns: auto auto;
+    grid-gap: 2rem 0;
+  }
+  .grid-item{
+    width:80%;
+  }
+  h1 span:first-child{
+    font-size: 5rem;
+  }
+  h1 span:nth-child(2){
+    font-size: 1.5em;
+  }
+  .card-img {
+    display: block;
+    width: 100%;
+    height: 10rem;
+  }
+  
+  .card-content {
+    padding: 1rem;
+  }
+  
+  .card-header {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    letter-spacing: 0rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  
+  .card-btn {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    letter-spacing: 0.1rem;
+  }
 }
