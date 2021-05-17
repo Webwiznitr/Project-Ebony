@@ -19,6 +19,9 @@ body {
   min-height: 100vh;
   color:#1e212d;
   line-height: 2;
+  width: 100%;
+  overflow-x: hidden;
+
 }
 
 
@@ -168,6 +171,7 @@ footer{
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  margin: 0 30px;
 }
 .footer-content h3{
   font-size: 1.8rem;
@@ -214,6 +218,7 @@ footer{
   font-size: 14px;
   word-spacing: 2px;
   text-transform: capitalize;
+  margin:0.1em;
 }
 .footer-botttom span{
   text-transform: uppercase;
