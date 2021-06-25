@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 * {
   margin: 0;
@@ -12,16 +13,16 @@ html {
 }
 
 body {
-  background-color:#daf6ff;
+  background-color: #eeeeee;
   font-family: Arial, Helvetica, sans-serif;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   color:#1e212d;
   line-height: 2;
-  width: 100%;
   overflow-x: hidden;
-
+  margin: 0 auto;
+  max-width: 1350px ;
 }
 
 
@@ -30,14 +31,13 @@ body {
 
 
 header{
-  background-image: linear-gradient(to bottom right, #000027 0%, #02007e 100%);
+  background-image: url("images/ebonyWallpaper.jpg");
   background-size: cover;
   align-items: center;
   justify-content: center;
   left:0;
   right:0;
   padding: 15em 0;
-  margin-bottom: 8em;
 }
 header h1{
     font-family: Arial, Helvetica, sans-serif;
@@ -66,15 +66,15 @@ h1 span:first-child{
   letter-spacing: 1rem;
   line-height: 1;
   margin-bottom: 1em;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Poppins';
 }
 h1 span:nth-child(2){
   display: block;
-  font-size: 3.2rem;
+  font-size: 2rem;
   letter-spacing: 0.2rem;
   line-height: 1.5;
   margin: 0 0.5em;
-  font-family: 'Caveat', cursive;
+  font-family: 'Roboto';
 }
 
 /*-----------------card style---------------*/
@@ -83,7 +83,9 @@ a{
   text-decoration: none;
 }
 .card-section{
+  background-color:#b40000b9;
   display: flex;
+  padding: 5em 0;
 }
 
 .grid {
@@ -103,7 +105,8 @@ a{
   cursor: pointer;
   transition: 0.2s;
   margin:0 auto;
-  width:30em;
+  width:25em;
+  height:40em;
 }
 
 .grid-item:hover {
@@ -163,11 +166,10 @@ footer{
   right: 0;
   background: #111;
   height: auto;
-  width: 100vw;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto';
   padding-top: 40px;
   color: #fff;
-  margin-top:10em;
+  margin: 0 auto;
 }
 .footer-content{
   display: flex;
@@ -214,7 +216,6 @@ footer{
 
 .footer-bottom{
   background: #000;
-  width: 100vw;
   padding: 20px 0;
   text-align: center;
 }
@@ -231,18 +232,26 @@ footer{
 }
 
 @media only screen and (max-width:650px) {
+  header{
+    padding: 10em 0;
+  }
   .grid{
     grid-template-columns: auto auto;
     grid-gap: 2rem 0;
   }
   .grid-item{
-    width:80%;
+    width:65%;
+    height:23.5em;
   }
   h1 span:first-child{
     font-size: 5rem;
+    margin-left:  2em;
+    margin-right: 2em;
   }
   h1 span:nth-child(2){
-    font-size: 1.5em;
+    font-size: 0.8em;
+    margin-left:  2em;
+    margin-right: 2em;
   }
   .card-img {
     display: block;
