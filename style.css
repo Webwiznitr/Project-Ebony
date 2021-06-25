@@ -149,7 +149,6 @@ a{
   padding: 1.5rem;
   font-size: 2rem;
   text-align: center;
-  color: #3a3a3a;
   background-color: #eeeeee;
   border: none;
   border-radius: 0.4rem;
@@ -158,9 +157,13 @@ a{
   letter-spacing: 0.1rem;
 }
 .card-btn:hover{
-  background-color: #303030;
-  color:#fff;
+  background-color: #dddddd;
 }
+
+.card-btn a{
+  color: #3a3a3a;
+}
+
 
 /*--------------footer style-------------*/
 footer{
