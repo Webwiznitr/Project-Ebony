@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  background-color: #eeeeee;
+  background-color: #000000;
   font-family: Arial, Helvetica, sans-serif;
   justify-content: center;
   align-items: center;
@@ -22,7 +22,7 @@ body {
   line-height: 2;
   overflow-x: hidden;
   margin: 0 auto;
-  max-width: 1350px ;
+  max-width: 1300px ;
 }
 
 
@@ -83,7 +83,9 @@ a{
   text-decoration: none;
 }
 .card-section{
-  background-color:#b40000b9;
+  background-size: 100%;
+  background-repeat: repeat;
+  background-image:url("images/cardSectionWallpaper.jpg");
   display: flex;
   padding: 5em 0;
 }
@@ -164,7 +166,8 @@ footer{
   bottom: 0;
   left: 0;
   right: 0;
-  background: #111;
+  background-image: url("images/ebonyWallpaper.jpg");
+  background-size: 100%;
   height: auto;
   font-family: 'Roboto';
   padding-top: 40px;
@@ -215,7 +218,7 @@ footer{
 }
 
 .footer-bottom{
-  background: #000;
+  background: #111111;
   padding: 20px 0;
   text-align: center;
 }
