@@ -65,7 +65,7 @@ h1 span:first-child{
   font-size: 7rem;
   letter-spacing: 1rem;
   line-height: 1;
-  margin-bottom: 1em;
+  margin-bottom: 0.2em;
   font-family: 'Poppins';
 }
 h1 span:nth-child(2){
@@ -250,18 +250,19 @@ footer{
     grid-gap: 2rem 0;
   }
   .grid-item{
-    width:70%;
+    width:65%;
     height:auto;
     max-width: 17em;
     min-width: 12em;
   }
   h1 span:first-child{
-    font-size: 4rem;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
   }
   h1 span:nth-child(2){
-    font-size: 0.6em;
-    margin-left: 2em;
-    margin-right: 2em;
+    font-size: 0.4em;
+    margin-left: 8em;
+    margin-right: 8em;
   }
   .card-img {
     display: block;
