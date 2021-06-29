@@ -193,7 +193,7 @@ footer{
   line-height: 3rem;
 }
 .footer-content p{
-  max-width: 500px;
+  max-width: 900px;
   margin: 10px auto;
   line-height: 28px;
   font-size: 14px;
@@ -223,7 +223,7 @@ footer{
 
 .footer-bottom{
   background: #111111;
-  padding: 20px 0;
+  padding: 12px 0;
   text-align: center;
 }
 .footer-bottom p{
@@ -293,5 +293,11 @@ footer{
     font-size: 1rem;
     border-radius: 0.4rem;
     letter-spacing: 0.1rem;
+  }
+  .footer-content p{
+    max-width:40em;
+    margin: 10px auto;
+    line-height: 1.7em;
+    font-size: 1.2em;
   }
 }
